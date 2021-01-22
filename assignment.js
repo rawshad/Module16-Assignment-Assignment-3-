@@ -60,3 +60,27 @@ if(totalCost<0) {
     console.log(totalCost);
 }
 
+
+//megaFriend
+
+var name = ['Maruf', 'Kabir', 'Babu', 'Real', 'Arafat', 'Peyar', 'Newaz Sharif'];
+
+function megaFriend(name) {
+    var bigName = name[0];
+    for(var i = 0; i < name.length; i++) {
+        var element = name[i];
+        var elementSize = element.length;
+        if(elementSize > bigName.length) {
+            bigName = element;
+        }
+    }
+    return bigName;
+}
+
+var greatName = megaFriend(name);
+console.log(greatName);
+
+
+
+
+
