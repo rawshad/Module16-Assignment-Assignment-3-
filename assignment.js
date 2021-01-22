@@ -6,7 +6,7 @@ function kilometerToMeter(num) {
 
 var result = kilometerToMeter(7);
 
-console.log("7 kilometer =", result, "meter");
+console.log(result);
 
 
 //Budget Calculator
@@ -16,7 +16,7 @@ function budgetCalculator(watch, phone, laptop) {
 }
 
 var budget = budgetCalculator(5, 10, 7);
-console.log('Total Budget =', budget);
+console.log(budget);
 
 
 // Hotel Cost 
@@ -45,4 +45,4 @@ function hotelCost(day) {
 
 var totalCost = hotelCost(12);
 
-console.log('Total Hotel Cost =', totalCost);
+console.log(totalCost);
