@@ -18,6 +18,8 @@ function budgetCalculator(watch, phone, laptop) {
 var budget = budgetCalculator(5, 10, 7);
 console.log('Total Budget =', budget);
 
+
+// Hotel Cost 
 function hotelCost(day) {
     var cost = 0;
     if (day <= 10) {
