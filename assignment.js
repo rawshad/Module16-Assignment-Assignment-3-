@@ -3,10 +3,15 @@ function kilometerToMeter(num) {
     var meter = num * 1000;
     return meter;
 }
-
 var result = kilometerToMeter(7);
+if(result<0) {
+    console.log('Your input is not a valid number.')
+} else{
+    console.log(result);
+}
 
-console.log(result);
+
+
 
 
 //Budget Calculator
@@ -16,7 +21,12 @@ function budgetCalculator(watch, phone, laptop) {
 }
 
 var budget = budgetCalculator(5, 10, 7);
-console.log(budget);
+if(budget<0) {
+    console.log('Your input is not a valid number.')
+} else{
+    console.log(budget);
+}
+
 
 
 // Hotel Cost 
@@ -44,5 +54,9 @@ function hotelCost(day) {
 }
 
 var totalCost = hotelCost(12);
+if(totalCost<0) {
+    console.log('Your input is not a valid number')
+} else{
+    console.log(totalCost);
+}
 
-console.log(totalCost);
